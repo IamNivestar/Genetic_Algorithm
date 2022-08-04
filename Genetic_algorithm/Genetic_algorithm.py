@@ -460,7 +460,7 @@ if __name__ == "__main__":
 				"\nN_Population =", ga.n_population, "\nN_Generations = ", ga.n_generations, "\nN_elits = ", ga.n_elits,
 				"\nSelection Method = ", ga.selection_method, "\nTournament_count = ", ga.tournament_count)
 	
-	Calibrate = True
+	Calibrate = False
 	if Calibrate:
 		calibrate()
 	else:
